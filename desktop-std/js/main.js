@@ -1,6 +1,5 @@
 var App = {
 	init: function(){
-		console.log("aer");
 	}
 }
 
