@@ -1,5 +1,5 @@
 /* ============================== */
-/* ! Clearfix hack para IE        */
+/* ! Clearfix hacks and styles    */
 /* ============================== */
 
 html.lt-ie7 .row,
@@ -10,6 +10,15 @@ html.lt-ie8 *:first-child+html .row,
 html.lt-ie8 *:first-child+html .clr,
 html.lt-ie8 *:first-child+html .group		{ zoom: 1; } /* IE7 */
 
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+
 /* ============================== */
 /* ! Layout for desktop version   */
 /* ============================== */
@@ -17,5 +26,4 @@ html.lt-ie8 *:first-child+html .group		{ zoom: 1; } /* IE7 */
 body {
 	
 }
-NAV > #globalNav {display:inline-block; width:100%}
 NAV > #mobileNav {display:none}
