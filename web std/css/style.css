@@ -1,0 +1,21 @@
+/* ============================== */
+/* ! Clearfix hack para IE        */
+/* ============================== */
+
+html.lt-ie7 .row,
+html.lt-ie7 .clr,
+html.lt-ie7 .group							{ zoom: 1; } /* IE6 */
+
+html.lt-ie8 *:first-child+html .row,
+html.lt-ie8 *:first-child+html .clr,
+html.lt-ie8 *:first-child+html .group		{ zoom: 1; } /* IE7 */
+
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+body {
+	
+}
+NAV > #globalNav {display:inline-block; width:100%}
+NAV > #mobileNav {display:none}
