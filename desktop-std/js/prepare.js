@@ -17,7 +17,7 @@ Modernizr.load([
 		yep: 'js/jquery.validate.min.js',
 		complete: function(){
 		var lang=$('html').attr('lang');
-			if (lang && lang!='en' && $('form').length>0)
+			if (lang && lang!='en' && $('form, .form').length>0)
 			Modernizr.load('js/localization/messages_'+lang+'.js');
 		}
 	},
