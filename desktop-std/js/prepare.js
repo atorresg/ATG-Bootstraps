@@ -13,7 +13,7 @@ if (!(window.console && console.log)) {
 Modernizr.load([
 	// form validation
 	{ 
-		test: $('form').length>0,
+		test: $('form, .form').length>0,
 		yep: 'js/jquery.validate.min.js',
 		complete: function(){
 		var lang=$('html').attr('lang');
