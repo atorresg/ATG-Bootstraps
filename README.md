@@ -18,7 +18,7 @@ Those which meet the followings:
 What does this include?
 --------------------------------------
 
-- **jQuery**: Latest stable version (1.X as we need IE 6+ support)
+- **jQuery**: Latest stable version (1.x as we need IE 6+ support)
 - **Selectivizr**: CSS3 selectors for IE
 - **Modernizr**: Helps to detect browser capabilities and loads [polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills). It also enables html5 elements in IE
 - **PIE**: enables some CSS3 features in IE
@@ -32,4 +32,4 @@ What does this include?
 How to use it?
 --------------------------------------
 
-Just write your html5 / css3 code and put your javascript into `js/main.js`. Although I can't guarantee 100% browser compatiblity I promise you will have less headaches than before. 
+Just write your html5 as allways and put your css3 code into `css/style.css` and your javascript into `js/main.js`. Although I can't guarantee 100% browser compatiblity I promise you will have less headaches than before. 
