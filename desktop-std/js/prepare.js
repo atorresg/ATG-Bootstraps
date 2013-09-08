@@ -55,6 +55,6 @@ Modernizr.load([
 		load:'js/cssfx.min.js'
 	},
 	{
-	load: 'js/main.min.js'
+	load: 'js/main.js'
 	}
 ]);
