@@ -32,4 +32,4 @@ What does this include?
 How to use it?
 --------------------------------------
 
-Just write your html5 / css3 code and put your javascript into `js/main.js`. Although I can guarantee 100% browser compatiblity I promise you will have less headaches than before. 
+Just write your html5 / css3 code and put your javascript into `js/main.js`. Although I can't guarantee 100% browser compatiblity I promise you will have less headaches than before. 
