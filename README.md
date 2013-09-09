@@ -9,11 +9,12 @@ A group (now there is only one set but there will be more in the future) of code
 When should I use this?
 --------------------------------------
 
-At those projects which meet the followings:
+At those projects which meet the followings needs:
 
 1. Short time projects (from minutes to a few days).
 2. High browser compatibility standards (IE6+)
 3. Responsive capable
+4. Nice css3/html5 functionalities
 
 What does this include?
 --------------------------------------
@@ -33,3 +34,7 @@ How to use it?
 --------------------------------------
 
 Just write your html5 as allways and put your css3 code into `css/style.css` and your javascript into `js/main.js`. Although I can't guarantee 100% browser compatiblity I promise you will have less headaches than before. 
+
+Credits
+--------------------------------------
+This has evolved for some time thanks to my coworkers: Claudio Alvarez, Mario Droguett, Luis Donaire and Jaime Quiñones. They have contributed through testings (in real projects) and proposals (real project needs).
