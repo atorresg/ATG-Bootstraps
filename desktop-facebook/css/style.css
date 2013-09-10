@@ -1,0 +1,46 @@
+/* ====================================== */
+/* ! Clearfix hacks and general styles    */
+/* ====================================== */
+
+*{
+	outline:none;
+}
+html.lt-ie7 .row,
+html.lt-ie7 .clr,
+html.lt-ie7 .group							{ zoom: 1; } /* IE6 */
+
+html.lt-ie8 *:first-child+html .row,
+html.lt-ie8 *:first-child+html .clr,
+html.lt-ie8 *:first-child+html .group		{ zoom: 1; } /* IE7 */
+
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+
+body,html{
+	margin:0;
+	height: <?=cssHeight()?>;
+}
+body {
+}
+section{
+	position: absolute;
+	width: <?=cssWidth()?>;
+	height: <?=cssHeight()?>;
+	top:0;
+	left:0;
+	display: none;
+}
+body.nofan .nofan, body.fan .fan{
+	display: inherit;
+}

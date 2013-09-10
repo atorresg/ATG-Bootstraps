@@ -1,0 +1,2 @@
+<?php include ('../inc/config.php'); 
+header('Location:https://www.facebook.com/dialog/pagetab?app_id='.$config['appId'].'&next=http://'.urlencode($_SERVER['HTTP_HOST']).substr($_SERVER['REQUEST_URI'],0,strlen($_SERVER['REQUEST_URI'])-9));
